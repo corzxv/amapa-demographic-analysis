@@ -2,7 +2,7 @@
 
 Repositório do Trabalho 1 da disciplina de Demografia, com foco na dinâmica demográfica do Amapá (UF AP, código IBGE 16) entre 2000 e 2024.
 
-O projeto reúne scripts em R, bases tratadas, tabelas, gráficos e o relatório final em LaTeX/Overleaf. As análises foram construídas a partir de dados do SINASC, SIM, SIM-DOFET, projeções populacionais do IBGE - Revisão 2024 e Censo Demográfico 2022.
+O projeto reúne scripts em R, bases tratadas, tabelas, gráficos e o relatório final em LaTeX. As análises foram construídas a partir de dados do SINASC, SIM, SIM-DOFET, projeções populacionais do IBGE - Revisão 2024 e Censo Demográfico 2022.
 
 ## Conteúdo analisado
 
