@@ -1,0 +1,96 @@
+COMENTÁRIOS — QUESTÃO 1
+Diagrama de Lexis e Probabilidades de Sobrevivência na Infância
+Amapá, 2000–2024
+
+1. TENDÊNCIA DE 5p0 AO LONGO DO TEMPO (COORTES 2000–2019)
+
+A análise longitudinal por coorte revela trajetória de melhoria consistente
+na sobrevivência infantil no Amapá. A probabilidade de um recém-nascido
+sobreviver até a idade exata de 5 anos (5p0) variou de 97.4% (coorte 2000)
+a 98.0% (coorte 2015), com 5q0 correspondente variando de 26.4‰ a 19.9‰.
+Essa tendência é coerente com o processo de transição epidemiológica brasileiro
+e com a expansão progressiva da cobertura do Sistema Único de Saúde (SUS) na
+região Norte ao longo das duas primeiras décadas do século XXI.
+
+A redução da mortalidade na infância no Amapá reflete o efeito conjunto de
+múltiplas políticas públicas: ampliação da cobertura vacinal pelo Programa
+Nacional de Imunizações (PNI), expansão da Estratégia Saúde da Família (ESF),
+melhoria nas condições de saneamento básico em Macapá e Santana, e qualificação
+dos serviços de atenção ao parto e ao recém-nascido. O diagrama de Lexis
+permite visualizar essa tendência estrutural ao posicionar cada óbito em seu
+contexto de coorte: a densidade de pontos nas primeiras coortes (2000–2004)
+é visivelmente maior do que nas coortes mais recentes (2015–2019), especialmente
+nas idades 0–1 ano, onde a mortalidade neonatal e pós-neonatal é mais sensível
+às melhorias na assistência ao parto.
+
+2. TENDÊNCIA DE 1p0 AO LONGO DO TEMPO (COORTES 2000–2023)
+
+A probabilidade de sobreviver ao primeiro aniversário (1p0) apresentou evolução
+semelhante, com 1q0 variando de 23.5‰ (coorte 2001) a 16.2‰ (coorte 2015).
+A mortalidade infantil (< 1 ano) é particularmente sensível a fatores como
+qualidade da assistência ao parto, cobertura de aleitamento materno e acesso a
+serviços de atenção básica nos primeiros dias de vida — dimensões que melhoraram
+consistentemente no Brasil a partir dos anos 2000. Para a coorte de 2023,
+os dados de 2024 são ainda preliminares e podem subestimar ligeiramente o
+número de óbitos, resultando em 1p0 potencialmente superestimado para essa coorte.
+
+O impacto indireto da pandemia de COVID-19 pode ter afetado as coortes de
+2020 e 2021, dado o colapso dos sistemas de saúde em estados como o Amapá
+(que enfrentou apagão em novembro de 2020, agravando a situação hospitalar).
+Recomenda-se interpretar esses dois pontos com atenção adicional.
+
+3. DIFERENÇAS POR RAÇA/COR (COORTES 2022–2023)
+
+A análise por raça/cor revela iniquidades estruturais na mortalidade infantil
+do Amapá. As estimativas com base em número suficiente de casos (n ≥ 10)
+merecem atenção prioritária. Grupos populacionais historicamente marginalizados
+— em especial indígenas e pretos — tendem a apresentar 1q0 superior à média
+estadual, reflexo de acesso desigual a serviços de saúde qualificados, distância
+geográfica dos centros urbanos e condições socioeconômicas mais vulneráveis.
+
+Cabe ressaltar que as estimativas para grupos com menos de 10 óbitos (sinalizados
+com ⚠ no gráfico) apresentam instabilidade estatística severa: pequenas variações
+no numerador produzem oscilações expressivas no indicador. Para categorias como
+'Amarela', os resultados devem ser interpretados apenas qualitativamente. O
+indicador por raça/cor para populações indígenas no Amapá é especialmente
+relevante, dado que o estado concentra parcela significativa das terras
+indígenas demarcadas no Brasil (incluindo o Parque do Tumucumaque), com
+comunidades em situação de vulnerabilidade sanitária documentada.
+
+4. QUALIDADE DOS DADOS E LIMITAÇÕES
+
+(a) Sub-registro do SIM: Estima-se sub-registro de 20 a 40% para a região Norte
+(RIPSA, 2008), especialmente elevado para menores de 1 ano e óbitos domiciliares.
+No Amapá, a existência de municípios remotos com difícil acesso à rede de saúde
+e a concentração de serviços em Macapá amplificam esse problema. O sub-registro
+implica subestimação dos numeradores (óbitos), resultando em 1q0 e 5q0
+mais baixos do que os valores reais — e, consequentemente, 5p0 e 1p0 otimistas.
+
+(b) Sub-registro do SINASC: A cobertura nacional estimada é de 94,8% (Szwarcwald
+et al., 2019), inferior na região Norte/Nordeste. O denominador (nascidos vivos)
+pode estar subestimado, o que tende a inflar levemente as estimativas de q0.
+
+(c) Raça/cor ignorada: 12.4% dos óbitos infantis em 2022–2023 não têm raça/cor
+preenchida no SIM, e 0.5% dos nascimentos carecem dessa informação no SINASC.
+Se o padrão de não-resposta for não-aleatório (o que é esperado — grupos
+marginalizados tendem a ter maior sub-registro de raça/cor), os resultados por
+categoria racial subestimam a mortalidade dos grupos mais vulneráveis.
+
+(d) Hipótese de população fechada: O Amapá apresenta dinâmica migratória
+expressiva, especialmente com o Pará (fluxos de trabalhadores e famílias do
+arquipélago do Marajó e de Belém) e com a Guiana Francesa (fluxo de fronteira).
+Crianças nascidas no Amapá que se deslocam e morrem em outros estados — em
+particular em hospitais de referência de Belém — não são capturadas pelo SIM/AP
+filtrado por CODMUNRES. Esse viés de seleção leva à subestimação sistemática da
+mortalidade da coorte, tornando os valores de 5p0 e 1p0 aqui calculados limites
+superiores das probabilidades reais de sobrevivência.
+
+5. REFERÊNCIAS AO CONTEXTO DO NORTE E DA AMAZÔNIA
+
+O Amapá apresenta indicadores de mortalidade na infância historicamente superiores
+à média nacional, reflexo das desigualdades regionais no acesso a serviços de
+saúde, saneamento e infraestrutura no contexto amazônico. A análise de coorte
+aqui realizada documenta o ritmo e a magnitude dessa melhoria ao longo de 25 anos,
+contribuindo para o monitoramento das metas ODS de redução da mortalidade na
+infância (5q0 < 25‰ até 2030) no contexto de uma UF que ainda enfrenta desafios
+estruturais relevantes.

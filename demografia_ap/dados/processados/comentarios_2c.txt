@@ -1,0 +1,115 @@
+COMENTÁRIOS — QUESTÃO 2
+Indicadores de Fecundidade — Amapá, 2010–2024
+
+1. CURVAS DE TEF: FORMATO, CÚSPIDE E DESLOCAMENTO ETÁRIO
+
+As taxas específicas de fecundidade (nfx) por grupo etário da mãe revelam o
+padrão reprodutivo da população feminina do Amapá em cinco momentos distintos.
+No período analisado, as curvas apresentam o formato de sino assimétrico,
+com concentração da fecundidade nas idades centrais do período reprodutivo e
+declínio progressivo nos extremos.
+
+Em 2010, a cúspide — o grupo etário de maior fecundidade — situava-se no grupo
+20-24, indicando ainda um padrão de fecundidade relativamente precoce, característico
+de populações da região Norte com menor nível de urbanização e escolaridade
+feminina. Em 2024, a cúspide deslocou-se para o grupo 20-24, sinalizando o
+fenômeno de 'adiamento da maternidade', tendência documentada para o Brasil
+como um todo por Miranda-Ribeiro, Garcia & Faria (2019), que associam esse
+deslocamento à expansão da escolaridade feminina, inserção no mercado de trabalho
+e maior acesso a contraceptivos.
+
+A persistência de nfx relativamente elevada no grupo 15-19 anos ao longo de
+todo o período merece destaque. A fecundidade adolescente do Amapá permanece
+acima da média nacional, refletindo as desigualdades estruturais da região Norte:
+acesso limitado a serviços de planejamento familiar, menor cobertura educacional
+em municípios do interior (especialmente Laranjal do Jari, Mazagão e municípios
+fronteiriços) e normas sociais que ainda naturalizam a maternidade precoce.
+O UNFPA (2023) classifica a região Norte como a de maior taxa de fecundidade
+adolescente no Brasil, contexto que torna o Amapá particularmente sensível a
+políticas de saúde sexual e reprodutiva voltadas a jovens.
+
+2. TENDÊNCIA DA TFT E NÍVEL DE REPOSIÇÃO
+
+A TFT do Amapá declinou de 2.28 filhos por mulher (2010) para 1.49 filhos por
+mulher (2024). Esse declínio reflete a continuidade da transição demográfica
+na região, com compressão do período reprodutivo e redução do número desejado
+de filhos. O nível de reposição (2,1 filhos/mulher) é o limiar abaixo do qual,
+no longo prazo e sob população fechada, o tamanho da geração das filhas não
+repõe a das mães. No entanto, o Amapá ainda apresenta estrutura etária jovem
+e saldo migratório positivo, o que mitiga os efeitos do declínio da TFT sobre
+o crescimento populacional no curto e médio prazo.
+
+A TBN caiu de 21.6‰ (2010) para 13.3‰ (2024), queda que combina o efeito da
+redução da fecundidade com possíveis mudanças na estrutura etária. A TBN é uma
+medida sujeita ao efeito composição: populações mais jovens tendem a apresentar
+TBN mais elevada mesmo com TFT equivalente à de populações envelhecidas —
+razão pela qual a TFT e as nfx são medidas analiticamente mais robustas para
+comparações intra e intertemporais.
+
+3. INDICADORES DE REPRODUTIVIDADE (TBR E TLR)
+
+A TBR de 0.810 (2022) indica que, desconsiderando a mortalidade, cada geração
+de mulheres substituiria a geração anterior por um fator de 0.810 filhas por
+mulher. A TLR de 0.791 incorpora a mortalidade feminina durante o período
+reprodutivo — valores abaixo de 1,0 indicam que a geração das filhas não repõe
+a das mães sob as condições de fecundidade e mortalidade observadas. Os valores
+calculados utilizam como aproximação a tábua de vida feminina do IBGE 2022
+para o Brasil (e0 = 80,7 anos). Como a mortalidade feminina no Amapá é
+sistematicamente superior à média nacional, a TLR real do estado tende a ser
+ligeiramente inferior à aqui estimada — divergência que será corrigida com a
+tábua de vida específica do Amapá construída na Questão 3.
+
+4. COMPARAÇÃO PROJEÇÃO × CENSO 2022 (QUESTÃO 2b)
+
+As diferenças entre os indicadores calculados com denominadores projetados
+(Revisão 2018) e com o Censo 2022 refletem a defasagem metodológica da
+projeção, que não incorpora os resultados censitários de 2022. A Revisão 2018
+foi calibrada com o Censo 2010 e projeta a população do Amapá com base em
+hipóteses de fecundidade, mortalidade e migração que podem divergir das
+condições efetivamente observadas. O Censo 2022 fornece a contagem direta
+da população feminina 15-49, eliminando o viés de projeção. Quando o Censo
+aponta população feminina sistematicamente maior (ou menor) do que a projeção,
+as nfx, a TFG e a TFT se alteram na direção oposta (denominador maior →
+taxas menores, e vice-versa). Para análises de 2022 em diante, recomenda-se
+utilizar o Censo como denominador e aguardar a disponibilização da Revisão 2024
+em nível estadual via SIDRA para os demais anos.
+
+5. ASSOCIAÇÕES EM 2024: IDADE DA MÃE, ESCOLARIDADE E TIPO DE PARTO
+
+A análise dos microdados do SINASC 2024 revela padrão sistemático entre a
+idade da mãe e sua escolaridade. Mães adolescentes (< 20 anos) concentram-se
+nas categorias de menor escolaridade — ensino fundamental incompleto ou nenhuma
+instrução —, enquanto mães de 30 anos ou mais apresentam maior proporção com
+ensino médio completo ou superior. Esse gradiente etária-educacional reflete
+o papel duplo da escolaridade na fecundidade: como fator de proteção contra
+a gravidez precoce e como variável que medeia o adiamento da maternidade
+(Cavenaghi & Alves, 2018). No Amapá, onde a fecundidade adolescente permanece
+elevada, essa associação é especialmente relevante para o planejamento de
+políticas de saúde reprodutiva voltadas a jovens de baixa escolaridade.
+
+Em relação ao tipo de parto, observa-se distribuição diferenciada da
+escolaridade entre partos vaginais e cesáreos. Mães com maior escolaridade
+tendem a apresentar maior proporção de partos cesáreos — padrão bem documentado
+no Brasil e associado ao maior acesso a serviços de saúde privados, ao maior
+poder de escolha e negociação com equipes médicas, e à tendência de
+medicalização do parto nos estratos de maior renda e educação. No Amapá, com
+sua rede de serviços de saúde concentrada em Macapá e forte dependência do SUS,
+essa associação pode ter contornos específicos que merecem análise mais
+detalhada com dados de cobertura assistencial.
+
+Limitações: o campo ESCMAE no SINASC apresenta incompletude variável entre
+anos e municípios. Os valores classificados como 'Ignorada' foram mantidos
+como categoria separada nas tabelas, mas não devem ser incorporados à
+interpretação substantiva dos diferenciais por escolaridade. Análises mais
+refinadas devem restringir o denominador aos registros com escolaridade
+informada, ou tratar os valores ausentes por imputação.
+
+REFERÊNCIAS
+- Miranda-Ribeiro, P., Garcia, R. A. & Faria, R. M. (2019). Baixa fecundidade
+  no Brasil. Revista Brasileira de Estudos de População, v.36.
+- Bongaarts, J. (2017). Africa's unique fertility transition. Population and
+  Development Review, 43(S1): 39-58.
+- Cavenaghi, S. & Alves, J. E. D. (2018). Diversity of childbearing behavior
+  within the fertility transition in Brazil. Demographic Research, 38: 1097-1126.
+- IBGE (2023). Tábuas Completas de Mortalidade para o Brasil — 2022.
+- UNFPA Brasil (2023). Situação da população mundial — capítulo Brasil.

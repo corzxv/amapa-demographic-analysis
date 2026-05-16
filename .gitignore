@@ -1,0 +1,31 @@
+# R local/session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Temporary folders
+tmp/
+temp/
+*_work/

@@ -1,0 +1,215 @@
+ano_obito,grupo_idade_causa,grupo_causa_top20,obitos,total,pct
+2010,15-39,I. Infecciosas e parasitárias,32,551,5.807622504537205
+2010,15-39,II. Neoplasias,28,551,5.081669691470054
+2010,15-39,III. Sangue e imunitárias,7,551,1.2704174228675136
+2010,15-39,"IV. Endócrinas, nutricionais e metabólicas",9,551,1.6333938294010888
+2010,15-39,IX. Aparelho circulatório,23,551,4.174228675136116
+2010,15-39,V. Transtornos mentais e comportamentais,2,551,0.3629764065335753
+2010,15-39,VI. Sistema nervoso,8,551,1.4519056261343013
+2010,15-39,X. Aparelho respiratório,21,551,3.8112522686025407
+2010,15-39,XI. Aparelho digestivo,13,551,2.35934664246824
+2010,15-39,XII. Pele e tecido subcutâneo,2,551,0.3629764065335753
+2010,15-39,XIII. Osteomuscular e conjuntivo,3,551,0.5444646098003629
+2010,15-39,XIV. Aparelho geniturinário,3,551,0.5444646098003629
+2010,15-39,"XV. Gravidez, parto e puerpério",2,551,0.3629764065335753
+2010,15-39,XVII. Malformações congênitas,2,551,0.3629764065335753
+2010,15-39,XVIII. Sintomas e achados anormais,46,551,8.348457350272232
+2010,15-39,XX. Causas externas,350,551,63.52087114337568
+2010,40-59,I. Infecciosas e parasitárias,36,433,8.314087759815243
+2010,40-59,II. Neoplasias,66,433,15.242494226327944
+2010,40-59,III. Sangue e imunitárias,2,433,0.4618937644341801
+2010,40-59,"IV. Endócrinas, nutricionais e metabólicas",17,433,3.9260969976905313
+2010,40-59,IX. Aparelho circulatório,87,433,20.092378752886837
+2010,40-59,V. Transtornos mentais e comportamentais,2,433,0.4618937644341801
+2010,40-59,VI. Sistema nervoso,3,433,0.6928406466512702
+2010,40-59,X. Aparelho respiratório,26,433,6.0046189376443415
+2010,40-59,XI. Aparelho digestivo,21,433,4.849884526558892
+2010,40-59,XIII. Osteomuscular e conjuntivo,2,433,0.4618937644341801
+2010,40-59,XIV. Aparelho geniturinário,8,433,1.8475750577367205
+2010,40-59,XVIII. Sintomas e achados anormais,65,433,15.011547344110854
+2010,40-59,XX. Causas externas,98,433,22.632794457274827
+2010,5-14,I. Infecciosas e parasitárias,1,65,1.5384615384615385
+2010,5-14,II. Neoplasias,6,65,9.230769230769232
+2010,5-14,IX. Aparelho circulatório,4,65,6.153846153846154
+2010,5-14,VI. Sistema nervoso,6,65,9.230769230769232
+2010,5-14,X. Aparelho respiratório,8,65,12.307692307692308
+2010,5-14,XI. Aparelho digestivo,1,65,1.5384615384615385
+2010,5-14,XIII. Osteomuscular e conjuntivo,1,65,1.5384615384615385
+2010,5-14,XIV. Aparelho geniturinário,1,65,1.5384615384615385
+2010,5-14,"XV. Gravidez, parto e puerpério",1,65,1.5384615384615385
+2010,5-14,XVII. Malformações congênitas,2,65,3.076923076923077
+2010,5-14,XVIII. Sintomas e achados anormais,5,65,7.6923076923076925
+2010,5-14,XX. Causas externas,29,65,44.61538461538462
+2010,60+,COVID-19 (B34.2/U07),1,883,0.11325028312570783
+2010,60+,I. Infecciosas e parasitárias,40,883,4.530011325028313
+2010,60+,II. Neoplasias,132,883,14.949037372593432
+2010,60+,III. Sangue e imunitárias,4,883,0.4530011325028313
+2010,60+,"IV. Endócrinas, nutricionais e metabólicas",64,883,7.248018120045301
+2010,60+,IX. Aparelho circulatório,246,883,27.859569648924122
+2010,60+,V. Transtornos mentais e comportamentais,2,883,0.22650056625141565
+2010,60+,VI. Sistema nervoso,5,883,0.5662514156285391
+2010,60+,X. Aparelho respiratório,140,883,15.855039637599095
+2010,60+,XI. Aparelho digestivo,45,883,5.096262740656852
+2010,60+,XII. Pele e tecido subcutâneo,3,883,0.33975084937712347
+2010,60+,XIV. Aparelho geniturinário,11,883,1.245753114382786
+2010,60+,XVIII. Sintomas e achados anormais,164,883,18.57304643261608
+2010,60+,XX. Causas externas,26,883,2.944507361268403
+2010,<5,I. Infecciosas e parasitárias,16,344,4.651162790697675
+2010,<5,II. Neoplasias,3,344,0.872093023255814
+2010,<5,"IV. Endócrinas, nutricionais e metabólicas",6,344,1.744186046511628
+2010,<5,IX. Aparelho circulatório,7,344,2.0348837209302326
+2010,<5,VI. Sistema nervoso,8,344,2.3255813953488373
+2010,<5,VII. Olho e anexos,1,344,0.29069767441860467
+2010,<5,X. Aparelho respiratório,19,344,5.523255813953488
+2010,<5,XI. Aparelho digestivo,3,344,0.872093023255814
+2010,<5,XIV. Aparelho geniturinário,5,344,1.4534883720930232
+2010,<5,XVI. Período perinatal,213,344,61.91860465116279
+2010,<5,XVII. Malformações congênitas,27,344,7.848837209302325
+2010,<5,XVIII. Sintomas e achados anormais,17,344,4.941860465116279
+2010,<5,XX. Causas externas,19,344,5.523255813953488
+2021,15-39,COVID-19 (B34.2/U07),83,877,9.464082098061574
+2021,15-39,I. Infecciosas e parasitárias,39,877,4.4469783352337515
+2021,15-39,II. Neoplasias,65,877,7.411630558722919
+2021,15-39,III. Sangue e imunitárias,3,877,0.34207525655644244
+2021,15-39,"IV. Endócrinas, nutricionais e metabólicas",16,877,1.8244013683010263
+2021,15-39,IX. Aparelho circulatório,36,877,4.104903078677309
+2021,15-39,V. Transtornos mentais e comportamentais,2,877,0.22805017103762829
+2021,15-39,VI. Sistema nervoso,11,877,1.2542759407069555
+2021,15-39,X. Aparelho respiratório,26,877,2.9646522234891677
+2021,15-39,XI. Aparelho digestivo,21,877,2.394526795895097
+2021,15-39,XII. Pele e tecido subcutâneo,2,877,0.22805017103762829
+2021,15-39,XIII. Osteomuscular e conjuntivo,3,877,0.34207525655644244
+2021,15-39,XIV. Aparelho geniturinário,11,877,1.2542759407069555
+2021,15-39,"XV. Gravidez, parto e puerpério",16,877,1.8244013683010263
+2021,15-39,XVIII. Sintomas e achados anormais,22,877,2.508551881413911
+2021,15-39,XX. Causas externas,521,877,59.40706955530216
+2021,40-59,COVID-19 (B34.2/U07),340,1070,31.775700934579437
+2021,40-59,I. Infecciosas e parasitárias,39,1070,3.6448598130841123
+2021,40-59,II. Neoplasias,142,1070,13.271028037383179
+2021,40-59,III. Sangue e imunitárias,5,1070,0.46728971962616817
+2021,40-59,"IV. Endócrinas, nutricionais e metabólicas",59,1070,5.514018691588785
+2021,40-59,IX. Aparelho circulatório,149,1070,13.925233644859814
+2021,40-59,V. Transtornos mentais e comportamentais,5,1070,0.46728971962616817
+2021,40-59,VI. Sistema nervoso,15,1070,1.4018691588785046
+2021,40-59,X. Aparelho respiratório,52,1070,4.859813084112149
+2021,40-59,XI. Aparelho digestivo,61,1070,5.700934579439252
+2021,40-59,XII. Pele e tecido subcutâneo,4,1070,0.3738317757009346
+2021,40-59,XIII. Osteomuscular e conjuntivo,4,1070,0.3738317757009346
+2021,40-59,XIV. Aparelho geniturinário,14,1070,1.3084112149532712
+2021,40-59,"XV. Gravidez, parto e puerpério",3,1070,0.2803738317757009
+2021,40-59,XVIII. Sintomas e achados anormais,42,1070,3.925233644859813
+2021,40-59,XX. Causas externas,136,1070,12.710280373831775
+2021,5-14,COVID-19 (B34.2/U07),2,63,3.1746031746031744
+2021,5-14,I. Infecciosas e parasitárias,3,63,4.761904761904762
+2021,5-14,II. Neoplasias,11,63,17.46031746031746
+2021,5-14,III. Sangue e imunitárias,2,63,3.1746031746031744
+2021,5-14,"IV. Endócrinas, nutricionais e metabólicas",3,63,4.761904761904762
+2021,5-14,IX. Aparelho circulatório,1,63,1.5873015873015872
+2021,5-14,VI. Sistema nervoso,5,63,7.936507936507936
+2021,5-14,X. Aparelho respiratório,2,63,3.1746031746031744
+2021,5-14,XIV. Aparelho geniturinário,2,63,3.1746031746031744
+2021,5-14,XVIII. Sintomas e achados anormais,5,63,7.936507936507936
+2021,5-14,XX. Causas externas,27,63,42.857142857142854
+2021,60+,COVID-19 (B34.2/U07),603,2240,26.919642857142854
+2021,60+,I. Infecciosas e parasitárias,55,2240,2.455357142857143
+2021,60+,II. Neoplasias,278,2240,12.410714285714286
+2021,60+,III. Sangue e imunitárias,7,2240,0.3125
+2021,60+,"IV. Endócrinas, nutricionais e metabólicas",169,2240,7.544642857142857
+2021,60+,IX. Aparelho circulatório,512,2240,22.857142857142858
+2021,60+,V. Transtornos mentais e comportamentais,6,2240,0.26785714285714285
+2021,60+,VI. Sistema nervoso,43,2240,1.9196428571428572
+2021,60+,X. Aparelho respiratório,238,2240,10.625
+2021,60+,XI. Aparelho digestivo,69,2240,3.0803571428571432
+2021,60+,XII. Pele e tecido subcutâneo,3,2240,0.13392857142857142
+2021,60+,XIII. Osteomuscular e conjuntivo,3,2240,0.13392857142857142
+2021,60+,XIV. Aparelho geniturinário,52,2240,2.3214285714285716
+2021,60+,XVIII. Sintomas e achados anormais,147,2240,6.5625
+2021,60+,XX. Causas externas,55,2240,2.455357142857143
+2021,<5,COVID-19 (B34.2/U07),5,328,1.524390243902439
+2021,<5,I. Infecciosas e parasitárias,25,328,7.621951219512195
+2021,<5,II. Neoplasias,5,328,1.524390243902439
+2021,<5,III. Sangue e imunitárias,6,328,1.8292682926829267
+2021,<5,"IV. Endócrinas, nutricionais e metabólicas",5,328,1.524390243902439
+2021,<5,IX. Aparelho circulatório,2,328,0.6097560975609756
+2021,<5,VI. Sistema nervoso,2,328,0.6097560975609756
+2021,<5,X. Aparelho respiratório,25,328,7.621951219512195
+2021,<5,XI. Aparelho digestivo,4,328,1.2195121951219512
+2021,<5,XII. Pele e tecido subcutâneo,1,328,0.3048780487804878
+2021,<5,XIV. Aparelho geniturinário,4,328,1.2195121951219512
+2021,<5,XVI. Período perinatal,158,328,48.170731707317074
+2021,<5,XVII. Malformações congênitas,56,328,17.073170731707318
+2021,<5,XVIII. Sintomas e achados anormais,13,328,3.9634146341463414
+2021,<5,XX. Causas externas,17,328,5.182926829268292
+2024,15-39,COVID-19 (B34.2/U07),1,680,0.14705882352941177
+2024,15-39,I. Infecciosas e parasitárias,41,680,6.029411764705882
+2024,15-39,II. Neoplasias,41,680,6.029411764705882
+2024,15-39,III. Sangue e imunitárias,3,680,0.4411764705882353
+2024,15-39,"IV. Endócrinas, nutricionais e metabólicas",12,680,1.7647058823529411
+2024,15-39,IX. Aparelho circulatório,37,680,5.4411764705882355
+2024,15-39,V. Transtornos mentais e comportamentais,1,680,0.14705882352941177
+2024,15-39,VI. Sistema nervoso,9,680,1.3235294117647058
+2024,15-39,X. Aparelho respiratório,26,680,3.823529411764706
+2024,15-39,XI. Aparelho digestivo,15,680,2.2058823529411766
+2024,15-39,XII. Pele e tecido subcutâneo,2,680,0.29411764705882354
+2024,15-39,XIII. Osteomuscular e conjuntivo,7,680,1.0294117647058822
+2024,15-39,XIV. Aparelho geniturinário,10,680,1.4705882352941175
+2024,15-39,"XV. Gravidez, parto e puerpério",11,680,1.6176470588235297
+2024,15-39,XVII. Malformações congênitas,2,680,0.29411764705882354
+2024,15-39,XVIII. Sintomas e achados anormais,20,680,2.941176470588235
+2024,15-39,XX. Causas externas,442,680,65
+2024,40-59,COVID-19 (B34.2/U07),1,775,0.12903225806451613
+2024,40-59,I. Infecciosas e parasitárias,65,775,8.38709677419355
+2024,40-59,II. Neoplasias,154,775,19.870967741935484
+2024,40-59,III. Sangue e imunitárias,3,775,0.3870967741935484
+2024,40-59,"IV. Endócrinas, nutricionais e metabólicas",52,775,6.709677419354838
+2024,40-59,IX. Aparelho circulatório,193,775,24.903225806451612
+2024,40-59,V. Transtornos mentais e comportamentais,10,775,1.2903225806451613
+2024,40-59,VI. Sistema nervoso,9,775,1.1612903225806452
+2024,40-59,X. Aparelho respiratório,53,775,6.838709677419355
+2024,40-59,XI. Aparelho digestivo,42,775,5.419354838709677
+2024,40-59,XII. Pele e tecido subcutâneo,6,775,0.7741935483870968
+2024,40-59,XIII. Osteomuscular e conjuntivo,7,775,0.903225806451613
+2024,40-59,XIV. Aparelho geniturinário,20,775,2.5806451612903225
+2024,40-59,XVII. Malformações congênitas,3,775,0.3870967741935484
+2024,40-59,XVIII. Sintomas e achados anormais,41,775,5.290322580645161
+2024,40-59,XX. Causas externas,116,775,14.967741935483872
+2024,5-14,I. Infecciosas e parasitárias,7,45,15.555555555555555
+2024,5-14,II. Neoplasias,9,45,20
+2024,5-14,III. Sangue e imunitárias,1,45,2.2222222222222223
+2024,5-14,"IV. Endócrinas, nutricionais e metabólicas",2,45,4.444444444444445
+2024,5-14,IX. Aparelho circulatório,2,45,4.444444444444445
+2024,5-14,VI. Sistema nervoso,6,45,13.333333333333334
+2024,5-14,X. Aparelho respiratório,6,45,13.333333333333334
+2024,5-14,XIII. Osteomuscular e conjuntivo,1,45,2.2222222222222223
+2024,5-14,XX. Causas externas,11,45,24.444444444444443
+2024,60+,COVID-19 (B34.2/U07),7,2037,0.3436426116838488
+2024,60+,I. Infecciosas e parasitárias,82,2037,4.025527736867943
+2024,60+,II. Neoplasias,363,2037,17.820324005891017
+2024,60+,III. Sangue e imunitárias,6,2037,0.29455081001472755
+2024,60+,"IV. Endócrinas, nutricionais e metabólicas",144,2037,7.069219440353461
+2024,60+,IX. Aparelho circulatório,688,2037,33.775159548355425
+2024,60+,V. Transtornos mentais e comportamentais,11,2037,0.5400098183603338
+2024,60+,VI. Sistema nervoso,34,2037,1.6691212567501228
+2024,60+,X. Aparelho respiratório,342,2037,16.789396170839467
+2024,60+,XI. Aparelho digestivo,75,2037,3.6818851251840945
+2024,60+,XII. Pele e tecido subcutâneo,7,2037,0.3436426116838488
+2024,60+,XIII. Osteomuscular e conjuntivo,4,2037,0.19636720667648502
+2024,60+,XIV. Aparelho geniturinário,94,2037,4.614629356897399
+2024,60+,XVII. Malformações congênitas,1,2037,0.049091801669121256
+2024,60+,XVIII. Sintomas e achados anormais,86,2037,4.221894943544428
+2024,60+,XX. Causas externas,93,2037,4.565537555228277
+2024,<5,I. Infecciosas e parasitárias,18,261,6.896551724137931
+2024,<5,II. Neoplasias,5,261,1.9157088122605364
+2024,<5,III. Sangue e imunitárias,5,261,1.9157088122605364
+2024,<5,"IV. Endócrinas, nutricionais e metabólicas",4,261,1.532567049808429
+2024,<5,IX. Aparelho circulatório,4,261,1.532567049808429
+2024,<5,VI. Sistema nervoso,3,261,1.1494252873563218
+2024,<5,X. Aparelho respiratório,24,261,9.195402298850574
+2024,<5,XI. Aparelho digestivo,4,261,1.532567049808429
+2024,<5,XII. Pele e tecido subcutâneo,1,261,0.38314176245210724
+2024,<5,XIII. Osteomuscular e conjuntivo,1,261,0.38314176245210724
+2024,<5,XIV. Aparelho geniturinário,3,261,1.1494252873563218
+2024,<5,XVI. Período perinatal,107,261,40.99616858237548
+2024,<5,XVII. Malformações congênitas,53,261,20.306513409961685
+2024,<5,XVIII. Sintomas e achados anormais,7,261,2.681992337164751
+2024,<5,XX. Causas externas,22,261,8.42911877394636

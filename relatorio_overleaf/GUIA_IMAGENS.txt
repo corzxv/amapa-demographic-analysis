@@ -1,0 +1,186 @@
+================================================================================
+GUIA COMPLETO: COMO ADICIONAR AS IMAGENS AO OVERLEAF
+================================================================================
+
+PASSO 1: FAZER UPLOAD DO ARQUIVO ZIP
+================================================================================
+
+1. Acesse https://www.overleaf.com
+2. Clique em "New Project" → "Upload Project"
+3. Selecione o arquivo "trabalho_final_metodos2.zip"
+4. Clique em "Upload"
+
+O Overleaf irá descompactar automaticamente todos os arquivos.
+
+
+PASSO 2: CRIAR A PASTA DE IMAGENS (se necessário)
+================================================================================
+
+Se a pasta "imagens" não foi criada automaticamente:
+
+1. No menu esquerdo do Overleaf, clique no ícone de pasta
+2. Clique em "New Folder"
+3. Digite "imagens" como nome
+4. Clique em "Create"
+
+
+PASSO 3: FAZER UPLOAD DAS IMAGENS
+================================================================================
+
+Para cada uma das 12 imagens abaixo:
+
+1. Clique no ícone de upload (seta para cima) no menu esquerdo
+2. Selecione o arquivo de imagem
+3. Certifique-se de que está sendo salvo na pasta "imagens"
+4. Repita para cada imagem
+
+IMAGENS NECESSÁRIAS (em ordem):
+────────────────────────────────────────────────────────────────────────────
+
+ANÁLISE DESCRITIVA:
+  □ idade_distribuicao.png
+  □ sexo_distribuicao.png
+  □ saude_distribuicao.png
+
+PERGUNTA 1 (ANOVA):
+  □ exercicio_saude_boxplot.png
+  □ exercicio_saude_qq.png
+
+PERGUNTA 2 (TESTE T):
+  □ idade_depressao_boxplot.png
+
+PERGUNTA 3 (FISHER - APOIO):
+  □ apoio_depressao.png
+
+PERGUNTA 4 (TESTE Z - TABAGISMO):
+  □ tabagismo_sexo.png
+
+PERGUNTA 5 (TESTE PROPORÇÕES - COLESTEROL):
+  □ hipertensao_colesterol.png
+
+PERGUNTA 6 (FISHER - INTERNAÇÃO):
+  □ internacao_plano.png
+
+PERGUNTA 7 (PEARSON - ÁLCOOL):
+  □ alcool_tabagismo.png
+
+PERGUNTA 8 (SPEARMAN - VERDURAS):
+  □ verduras_refrigerante.png
+
+
+PASSO 4: VERIFICAR SE TUDO ESTÁ CORRETO
+================================================================================
+
+1. Clique em "Recompile" no Overleaf
+2. Verifique se o PDF foi gerado sem erros
+3. Se houver erros, verifique:
+   - Se os nomes dos arquivos estão EXATAMENTE como especificado acima
+   - Se as imagens estão na pasta "imagens"
+   - Se os arquivos .tex estão no diretório raiz (não dentro de subpastas)
+
+
+PASSO 5: EDITAR O DOCUMENTO (OPCIONAL)
+================================================================================
+
+Você pode editar qualquer arquivo .tex diretamente no Overleaf:
+
+- Clique no arquivo que deseja editar
+- Faça suas alterações
+- Clique em "Recompile" para ver as mudanças
+
+Principais arquivos para editar:
+  • main.tex - Configurações gerais
+  • introducao.tex - Introdução
+  • descricao_amostra.tex - Descrição da amostra
+  • pergunta1.tex até pergunta8.tex - Análise de cada pergunta
+  • conclusoes.tex - Conclusões
+
+
+DICAS IMPORTANTES
+================================================================================
+
+1. NOMES DOS ARQUIVOS:
+   - Use EXATAMENTE os nomes especificados
+   - Diferencie maiúsculas e minúsculas
+   - Não adicione espaços extras
+
+2. FORMATO DAS IMAGENS:
+   - Recomenda-se usar PNG ou PDF
+   - Evite usar imagens muito grandes (>5MB)
+   - Resolução mínima: 300 DPI para qualidade de impressão
+
+3. SALVANDO O TRABALHO:
+   - O Overleaf salva automaticamente
+   - Você pode fazer download do PDF a qualquer momento
+   - Use "Download PDF" para obter o arquivo final
+
+4. COMPARTILHANDO:
+   - Clique em "Share" para gerar um link compartilhável
+   - Você pode convidar colaboradores para editar junto
+
+5. HISTÓRICO DE VERSÕES:
+   - Clique em "History" para ver versões anteriores
+   - Você pode reverter para versões antigas se necessário
+
+
+ESTRUTURA FINAL DO PROJETO
+================================================================================
+
+trabalho_final_metodos2/
+├── main.tex
+├── capa.tex
+├── introducao.tex
+├── descricao_amostra.tex
+├── pergunta1.tex
+├── pergunta2.tex
+├── pergunta3.tex
+├── pergunta4.tex
+├── pergunta5.tex
+├── pergunta6.tex
+├── pergunta7.tex
+├── pergunta8.tex
+├── conclusoes.tex
+├── referencias.tex
+├── apendice_codigo.tex
+├── ref.bib
+├── README.md
+├── GUIA_IMAGENS.txt
+└── imagens/
+    ├── unb.png
+    ├── idade_distribuicao.png
+    ├── sexo_distribuicao.png
+    ├── saude_distribuicao.png
+    ├── exercicio_saude_boxplot.png
+    ├── exercicio_saude_qq.png
+    ├── idade_depressao_boxplot.png
+    ├── apoio_depressao.png
+    ├── tabagismo_sexo.png
+    ├── hipertensao_colesterol.png
+    ├── internacao_plano.png
+    ├── alcool_tabagismo.png
+    └── verduras_refrigerante.png
+
+
+SOLUÇÃO DE PROBLEMAS
+================================================================================
+
+PROBLEMA: "File not found" ao compilar
+SOLUÇÃO: Verifique se o nome da imagem está correto e se está na pasta "imagens"
+
+PROBLEMA: Imagem não aparece no PDF
+SOLUÇÃO: Tente fazer upload novamente ou usar um formato diferente (PNG em vez de JPG)
+
+PROBLEMA: Erro de compilação
+SOLUÇÃO: Verifique se todos os arquivos .tex estão no diretório raiz
+
+PROBLEMA: Não consigo editar um arquivo
+SOLUÇÃO: Clique no arquivo e aguarde o editor carregar completamente
+
+
+CONTATO E SUPORTE
+================================================================================
+
+Para dúvidas sobre o Overleaf: https://www.overleaf.com/help
+Para dúvidas sobre o trabalho: Consulte seu professor
+
+================================================================================

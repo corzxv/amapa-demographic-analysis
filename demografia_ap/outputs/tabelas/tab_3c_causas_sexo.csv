@@ -1,0 +1,106 @@
+ano_obito,sexo,grupo_causa_top20,obitos,total,pct
+2010,Feminino,I. Infecciosas e parasitárias,58,851,6.815511163337249
+2010,Feminino,II. Neoplasias,108,851,12.690951821386603
+2010,Feminino,III. Sangue e imunitárias,8,851,0.9400705052878966
+2010,Feminino,"IV. Endócrinas, nutricionais e metabólicas",50,851,5.875440658049354
+2010,Feminino,IX. Aparelho circulatório,152,851,17.861339600470036
+2010,Feminino,V. Transtornos mentais e comportamentais,1,851,0.11750881316098707
+2010,Feminino,VI. Sistema nervoso,15,851,1.762632197414806
+2010,Feminino,X. Aparelho respiratório,110,851,12.925969447708576
+2010,Feminino,XI. Aparelho digestivo,32,851,3.7602820211515864
+2010,Feminino,XII. Pele e tecido subcutâneo,2,851,0.23501762632197415
+2010,Feminino,XIII. Osteomuscular e conjuntivo,5,851,0.5875440658049353
+2010,Feminino,XIV. Aparelho geniturinário,12,851,1.410105757931845
+2010,Feminino,"XV. Gravidez, parto e puerpério",3,851,0.35252643948296125
+2010,Feminino,XVI. Período perinatal,104,851,12.220916568742656
+2010,Feminino,XVII. Malformações congênitas,15,851,1.762632197414806
+2010,Feminino,XVIII. Sintomas e achados anormais,112,851,13.160987074030553
+2010,Feminino,XX. Causas externas,64,851,7.520564042303173
+2010,Masculino,COVID-19 (B34.2/U07),1,1425,0.07017543859649122
+2010,Masculino,I. Infecciosas e parasitárias,67,1425,4.701754385964913
+2010,Masculino,II. Neoplasias,127,1425,8.912280701754385
+2010,Masculino,III. Sangue e imunitárias,5,1425,0.3508771929824561
+2010,Masculino,"IV. Endócrinas, nutricionais e metabólicas",46,1425,3.2280701754385968
+2010,Masculino,IX. Aparelho circulatório,215,1425,15.087719298245613
+2010,Masculino,V. Transtornos mentais e comportamentais,5,1425,0.3508771929824561
+2010,Masculino,VI. Sistema nervoso,15,1425,1.0526315789473684
+2010,Masculino,VII. Olho e anexos,1,1425,0.07017543859649122
+2010,Masculino,X. Aparelho respiratório,104,1425,7.298245614035087
+2010,Masculino,XI. Aparelho digestivo,51,1425,3.578947368421052
+2010,Masculino,XII. Pele e tecido subcutâneo,3,1425,0.21052631578947367
+2010,Masculino,XIII. Osteomuscular e conjuntivo,1,1425,0.07017543859649122
+2010,Masculino,XIV. Aparelho geniturinário,16,1425,1.1228070175438596
+2010,Masculino,XVI. Período perinatal,109,1425,7.6491228070175445
+2010,Masculino,XVII. Malformações congênitas,16,1425,1.1228070175438596
+2010,Masculino,XVIII. Sintomas e achados anormais,185,1425,12.982456140350877
+2010,Masculino,XX. Causas externas,458,1425,32.14035087719298
+2021,Feminino,COVID-19 (B34.2/U07),435,1782,24.410774410774412
+2021,Feminino,I. Infecciosas e parasitárias,55,1782,3.0864197530864197
+2021,Feminino,II. Neoplasias,262,1782,14.702581369248035
+2021,Feminino,III. Sangue e imunitárias,9,1782,0.5050505050505051
+2021,Feminino,"IV. Endócrinas, nutricionais e metabólicas",116,1782,6.509539842873176
+2021,Feminino,IX. Aparelho circulatório,309,1782,17.34006734006734
+2021,Feminino,V. Transtornos mentais e comportamentais,3,1782,0.16835016835016833
+2021,Feminino,VI. Sistema nervoso,35,1782,1.964085297418631
+2021,Feminino,X. Aparelho respiratório,157,1782,8.810325476992144
+2021,Feminino,XI. Aparelho digestivo,45,1782,2.525252525252525
+2021,Feminino,XII. Pele e tecido subcutâneo,5,1782,0.28058361391694725
+2021,Feminino,XIII. Osteomuscular e conjuntivo,9,1782,0.5050505050505051
+2021,Feminino,XIV. Aparelho geniturinário,34,1782,1.9079685746352413
+2021,Feminino,"XV. Gravidez, parto e puerpério",19,1782,1.0662177328843996
+2021,Feminino,XVI. Período perinatal,68,1782,3.8159371492704826
+2021,Feminino,XVII. Malformações congênitas,25,1782,1.4029180695847363
+2021,Feminino,XVIII. Sintomas e achados anormais,97,1782,5.4433221099887765
+2021,Feminino,XX. Causas externas,99,1782,5.555555555555555
+2021,Masculino,COVID-19 (B34.2/U07),598,2795,21.3953488372093
+2021,Masculino,I. Infecciosas e parasitárias,106,2795,3.7924865831842576
+2021,Masculino,II. Neoplasias,239,2795,8.550983899821109
+2021,Masculino,III. Sangue e imunitárias,14,2795,0.5008944543828265
+2021,Masculino,"IV. Endócrinas, nutricionais e metabólicas",136,2795,4.8658318425760285
+2021,Masculino,IX. Aparelho circulatório,391,2795,13.989266547406082
+2021,Masculino,V. Transtornos mentais e comportamentais,10,2795,0.35778175313059035
+2021,Masculino,VI. Sistema nervoso,41,2795,1.4669051878354205
+2021,Masculino,X. Aparelho respiratório,186,2795,6.65474060822898
+2021,Masculino,XI. Aparelho digestivo,110,2795,3.9355992844364938
+2021,Masculino,XII. Pele e tecido subcutâneo,5,2795,0.17889087656529518
+2021,Masculino,XIII. Osteomuscular e conjuntivo,1,2795,0.03577817531305903
+2021,Masculino,XIV. Aparelho geniturinário,49,2795,1.7531305903398926
+2021,Masculino,XVI. Período perinatal,90,2795,3.2200357781753133
+2021,Masculino,XVII. Malformações congênitas,31,2795,1.10912343470483
+2021,Masculino,XVIII. Sintomas e achados anormais,131,2795,4.6869409660107335
+2021,Masculino,XX. Causas externas,657,2795,23.506261180679786
+2024,Feminino,COVID-19 (B34.2/U07),6,1483,0.4045853000674309
+2024,Feminino,I. Infecciosas e parasitárias,83,1483,5.596763317599461
+2024,Feminino,II. Neoplasias,280,1483,18.88064733648011
+2024,Feminino,III. Sangue e imunitárias,9,1483,0.6068779501011463
+2024,Feminino,"IV. Endócrinas, nutricionais e metabólicas",110,1483,7.417397167902899
+2024,Feminino,IX. Aparelho circulatório,387,1483,26.09575185434929
+2024,Feminino,V. Transtornos mentais e comportamentais,4,1483,0.26972353337828725
+2024,Feminino,VI. Sistema nervoso,35,1483,2.3600809170600137
+2024,Feminino,X. Aparelho respiratório,198,1483,13.35131490222522
+2024,Feminino,XI. Aparelho digestivo,56,1483,3.7761294672960215
+2024,Feminino,XII. Pele e tecido subcutâneo,6,1483,0.4045853000674309
+2024,Feminino,XIII. Osteomuscular e conjuntivo,12,1483,0.8091706001348618
+2024,Feminino,XIV. Aparelho geniturinário,54,1483,3.6412677006068783
+2024,Feminino,"XV. Gravidez, parto e puerpério",11,1483,0.7417397167902899
+2024,Feminino,XVI. Período perinatal,64,1483,4.315576534052596
+2024,Feminino,XVII. Malformações congênitas,26,1483,1.7532029669588671
+2024,Feminino,XVIII. Sintomas e achados anormais,53,1483,3.5738368172623063
+2024,Feminino,XX. Causas externas,89,1483,6.001348617666891
+2024,Masculino,COVID-19 (B34.2/U07),3,2313,0.12970168612191957
+2024,Masculino,I. Infecciosas e parasitárias,130,2313,5.620406398616516
+2024,Masculino,II. Neoplasias,292,2313,12.624297449200172
+2024,Masculino,III. Sangue e imunitárias,9,2313,0.38910505836575876
+2024,Masculino,"IV. Endócrinas, nutricionais e metabólicas",104,2313,4.496325118893212
+2024,Masculino,IX. Aparelho circulatório,537,2313,23.216601815823605
+2024,Masculino,V. Transtornos mentais e comportamentais,18,2313,0.7782101167315175
+2024,Masculino,VI. Sistema nervoso,26,2313,1.124081279723303
+2024,Masculino,X. Aparelho respiratório,253,2313,10.938175529615219
+2024,Masculino,XI. Aparelho digestivo,80,2313,3.4587116299178557
+2024,Masculino,XII. Pele e tecido subcutâneo,10,2313,0.43233895373973197
+2024,Masculino,XIII. Osteomuscular e conjuntivo,8,2313,0.34587116299178555
+2024,Masculino,XIV. Aparelho geniturinário,73,2313,3.156074362300043
+2024,Masculino,XVI. Período perinatal,43,2313,1.8590575010808474
+2024,Masculino,XVII. Malformações congênitas,31,2313,1.340250756593169
+2024,Masculino,XVIII. Sintomas e achados anormais,101,2313,4.366623432771292
+2024,Masculino,XX. Causas externas,595,2313,25.72416774751405

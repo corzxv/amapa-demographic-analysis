@@ -1,0 +1,96 @@
+\documentclass[12pt, a4paper, twoside]{article}
+
+\usepackage[left = 3cm, top = 3cm, right = 2cm, bottom = 2cm]{geometry}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\numberwithin{equation}{subsection}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{titletoc,titlesec}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue]{hyperref}
+\usepackage[alf]{abntex2cite}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{quoting}
+\usepackage{epigraph}
+\usepackage{subfigure}
+\usepackage{anyfontsize}
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage{bm}
+\usepackage{siunitx}
+\usepackage{listings}
+\sisetup{output-decimal-marker = {,}}
+\raggedbottom
+
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{lema}[teo]{Lema}
+\newtheorem{cor}[teo]{Corolário}
+\newtheorem{prop}[teo]{Proposição}
+\newtheorem{defi}{Definição}
+\newtheorem{exem}{Exemplo}
+
+\newcommand{\titulo}{Dinâmica Demográfica no Amapá entre 2000 e 2024: Lexis, Natalidade, Fecundidade e Mortalidade}
+\newcommand{\autor}{Felipe Macedo Cordeiro \\ Raphael Borges Leite}
+\newcommand{\orientador}{Prof. Dr. Ana Maria Nogales Vasconcelos}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{16pt}
+\fancyhead[RO, LE]{\thepage}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+\titlecontents{section}[0cm]{}{\bf\thecontentslabel\ }{}{\titlerule*[.75pc]{.}\contentspage}
+\titlecontents{subsection}[0.75cm]{}{\thecontentslabel\ }{}{\titlerule*[.75pc]{.}\contentspage}
+
+\setcounter{secnumdepth}{3}
+
+\DeclareCaptionFormat{myformat}{ \centering \fontsize{10}{12}\selectfont#1#2#3}
+\captionsetup{format=myformat}
+
+\begin{document}
+
+\include{capa}
+
+\pagenumbering{arabic}
+\setcounter{page}{2}
+\onehalfspacing
+
+\setlength{\parindent}{1.5cm}
+\setlength{\parskip}{0.2cm}
+\setlength{\intextsep}{0.5cm}
+
+\titlespacing*{\section}{0cm}{0cm}{0.5cm}
+\titlespacing*{\subsection}{0cm}{0.5cm}{0.5cm}
+\titlespacing*{\subsubsection}{0cm}{0.5cm}{0.5cm}
+\titlespacing*{\paragraph}{0cm}{0.5cm}{0.5cm}
+
+\titleformat{\paragraph}{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+\pagenumbering{arabic}
+\setcounter{page}{3}
+
+\fancyhead[RE, LO]{\nouppercase{\emph\leftmark}}
+
+\tableofcontents
+\newpage
+
+\input{introducao.tex}
+\input{descricao_base}
+\input{pergunta1.tex}
+\input{pergunta2.tex}
+\input{pergunta3.tex}
+\input{referencias}
+
+\clearpage
+\appendix
+\section{Código R Utilizado}
+\input{apendice_codigo}
+
+\end{document}

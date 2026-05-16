@@ -1,0 +1,211 @@
+\section{Fecundidade e Natalidade}
+
+\subsection{Indicadores de fecundidade}
+
+Nesta questão foram calculados indicadores de fecundidade para o Amapá nos anos de 2010, 2019, 2021, 2022 e 2024. Os nascidos vivos foram obtidos no SINASC/DATASUS \cite{datasus2026} e os denominadores populacionais vieram das projeções populacionais do IBGE -- Revisão 2024 \cite{ibge2024}. Foram consideradas mulheres em idade reprodutiva, de 15 a 49 anos.
+
+As principais medidas utilizadas foram a Taxa Bruta de Natalidade (TBN), a Taxa de Fecundidade Geral (TFG), as Taxas Específicas de Fecundidade por idade (${}_nf_x$), as taxas específicas considerando apenas nascidos vivos do sexo feminino, a Taxa de Fecundidade Total (TFT), a Taxa Bruta de Reprodução (TBR) e a Taxa Líquida de Reprodução (TLR).
+
+A Taxa Bruta de Natalidade relaciona o total de nascidos vivos com a população média ou população de referência do ano:
+
+\begin{equation}
+\label{eq:tbn}
+TBN = \frac{\mathrm{NV}}{\bar{P}} \times 1000
+\end{equation}
+
+A Taxa de Fecundidade Geral considera apenas a população feminina em idade reprodutiva:
+
+\begin{equation}
+\label{eq:tfg}
+TFG = \frac{\mathrm{NV}}{\bar{P}_{f,15-49}} \times 1000
+\end{equation}
+
+As Taxas Específicas de Fecundidade por idade foram calculadas para cada grupo etário da mãe:
+
+\begin{equation}
+\label{eq:nfx}
+{}_nf_x = \frac{{}_n\mathrm{NV}_x}{{}_n\bar{P}_{f,x}} \times 1000
+\end{equation}
+
+Também foram calculadas as taxas específicas considerando apenas os nascidos vivos do sexo feminino:
+
+\begin{equation}
+\label{eq:nfx_fem}
+{}_nf_x^{fem} = \frac{{}_n\mathrm{NV}_x^{fem}}{{}_n\bar{P}_{f,x}} \times 1000
+\end{equation}
+
+A Taxa de Fecundidade Total foi obtida a partir da soma das taxas específicas de fecundidade. Como os grupos etários são quinquenais, foi utilizado $n=5$:
+
+\begin{equation}
+\label{eq:tft}
+TFT = 5 \times \sum_x \frac{{}_nf_x}{1000}
+\end{equation}
+
+A Taxa Bruta de Reprodução considera apenas os nascidos vivos do sexo feminino:
+
+\begin{equation}
+\label{eq:tbr}
+TBR = 5 \times \sum_x \frac{{}_nf_x^{fem}}{1000}
+\end{equation}
+
+Por fim, a Taxa Líquida de Reprodução incorpora a sobrevivência feminina nas idades reprodutivas, por meio da função ${}_nL_x$ da tábua de vida:
+
+\begin{equation}
+\label{eq:tlr}
+TLR = 5 \times \sum_x \left(\frac{{}_nf_x^{fem}}{1000}\right) \times \frac{{}_nL_x}{5l_0}
+\end{equation}
+
+em que $\mathrm{NV}$ representa o total de nascidos vivos, $\bar{P}$ a população média ou população de referência do ano, $\bar{P}_{f,15-49}$ a população feminina de 15 a 49 anos, ${}_n\mathrm{NV}_x$ os nascidos vivos de mães no grupo etário $x$ a $x+n$, ${}_n\mathrm{NV}_x^{fem}$ os nascidos vivos do sexo feminino nesse mesmo grupo etário, ${}_n\bar{P}_{f,x}$ a população feminina do grupo etário e ${}_nL_x/(5l_0)$ o fator médio de sobrevivência feminina no intervalo etário.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Indicadores de fecundidade e reprodução. Amapá, anos selecionados.}
+\label{tab:q2_indicadores}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{rrrrrrrr}
+\toprule
+\textbf{Ano} & \textbf{TBN} & \textbf{TFG} & \textbf{TFT} & \textbf{TBR} & \textbf{TLR} & \textbf{Nascidos vivos} & \textbf{Mulheres 15--49} \\
+\midrule
+2010 & 21,85 & 79,94 & 2,308 & 1,139 & 1,097 & 15.008 & 187.750 \\
+2019 & 19,70 & 69,70 & 2,174 & 1,053 & 1,019 & 15.355 & 220.313 \\
+2021 & 18,95 & 67,24 & 2,129 & 1,036 & 1,000 & 14.988 & 222.908 \\
+2022 & 17,11 & 60,92 & 1,944 & 0,942 & 0,910 & 13.614 & 223.468 \\
+2024 & 15,35 & 54,91 & 1,779 & 0,874 & 0,847 & 12.327 & 224.481 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A TBN, a TFG e as taxas específicas são expressas por mil. Já a TFT, a TBR e a TLR são interpretadas como número médio de filhos ou filhas por mulher. Os resultados indicam queda da fecundidade no período analisado. A TFT, calculada pela Equação~\eqref{eq:tft}, passou de 2,308 filhos por mulher em 2010 para 1,779 em 2024, ficando abaixo do nível de reposição populacional. A TLR, definida na Equação~\eqref{eq:tlr}, também ficou abaixo de 1 a partir de 2022, indicando que, mantidas as condições de fecundidade e mortalidade observadas, a geração de mulheres não seria integralmente reposta por filhas.
+
+\begin{figure}[H]
+    \centering
+    \caption{Taxas específicas de fecundidade por grupo etário. Amapá, anos selecionados.}
+    \includegraphics[width=0.85\textwidth]{imagens/tef_ap.png}
+    \label{fig:q2_tef}
+\end{figure}
+
+As curvas de ${}_nf_x$, calculadas conforme a Equação~\eqref{eq:nfx}, mostram concentração da fecundidade nas idades de 20 a 29 anos. Também se observa queda em praticamente todos os grupos etários, especialmente entre mulheres mais jovens. Esse comportamento é compatível com a tendência de redução da fecundidade brasileira discutida por \citeonline{mirandaribeiro2019}, associada a mudanças no padrão reprodutivo, maior escolarização e adiamento da maternidade.
+
+\subsection{Comparação com o Censo 2022}
+
+Para 2022, os indicadores também foram recalculados utilizando a população recenseada no Censo Demográfico de 2022. Como o Censo apresentou população menor que a projeção usada como denominador, as taxas calculadas com o Censo ficaram mais elevadas.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Indicadores de fecundidade em 2022 segundo o denominador populacional.}
+\label{tab:q2_censo_proj}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+\textbf{Denominador} & \textbf{TBN} & \textbf{TFG} & \textbf{TFT} & \textbf{TBR} & \textbf{TLR} & \textbf{Pop. total} & \textbf{Mulheres 15--49} \\
+\midrule
+Projeção IBGE Rev. 2024 & 17,11 & 60,92 & 1,944 & 0,942 & 0,910 & 795.457 & 223.468 \\
+Censo 2022 & 18,55 & 65,41 & 2,100 & 1,017 & 0,983 & 733.759 & 208.149 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A comparação mostra a importância do denominador utilizado. Com a população do Censo, a TFT de 2022 fica próxima de 2,1 filhos por mulher, enquanto com a projeção fica em 1,944. Portanto, a diferença não está nos nascidos vivos, que são os mesmos, mas no tamanho da população feminina usada como base de cálculo.
+
+\begin{figure}[H]
+    \centering
+    \caption{Taxas específicas de fecundidade em 2022 segundo o denominador utilizado.}
+    \includegraphics[width=0.78\textwidth]{imagens/tef_comp_2022_ap.png}
+    \label{fig:q2_tef_2022}
+\end{figure}
+
+\subsection{Reprodução}
+
+A Taxa Bruta de Reprodução (TBR), definida na Equação~\eqref{eq:tbr}, considera apenas os nascidos vivos do sexo feminino por idade da mãe. Já a Taxa Líquida de Reprodução (TLR), definida na Equação~\eqref{eq:tlr}, ajusta esse resultado pela sobrevivência feminina até as idades reprodutivas, utilizando a função ${}_nL_x$ da tábua de vida.
+
+Enquanto a TBR indica o número médio de filhas que uma mulher teria ao longo do período reprodutivo, mantidas as taxas de fecundidade observadas, a TLR incorpora também o efeito da mortalidade feminina antes e durante as idades reprodutivas.
+
+\begin{figure}[H]
+    \centering
+    \caption{Taxa Bruta e Taxa Líquida de Reprodução. Amapá, anos selecionados.}
+    \includegraphics[width=0.78\textwidth]{imagens/tbr_tlr_ap.png}
+    \label{fig:q2_tbr_tlr}
+\end{figure}
+
+A diferença entre TBR e TLR foi pequena, o que indica que a mortalidade feminina antes ou durante as idades reprodutivas não altera fortemente o resultado. O principal fator para a queda da TLR é, portanto, a própria redução da fecundidade.
+
+\subsection{Associação entre idade e escolaridade da mãe}
+
+Para 2024, foi analisada a relação entre grupo de idade da mãe e escolaridade por meio de uma tabela de contingência. Foram apresentadas as frequências absolutas e os percentuais por linha, isto é, a distribuição da escolaridade dentro de cada grupo etário.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Idade da mãe e escolaridade. SINASC 2024, Amapá.}
+\label{tab:q2_idade_esc}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Grupo de idade} & \textbf{Nenhuma} & \textbf{Fund. incompleto} & \textbf{Médio/Fund. completo} & \textbf{Superior} \\
+\midrule
+$<20$ & 2 (0,1\%) & 560 (25,9\%) & 1.567 (72,5\%) & 30 (1,4\%) \\
+20--24 & 6 (0,2\%) & 571 (17,7\%) & 2.275 (70,4\%) & 378 (11,7\%) \\
+25--29 & 4 (0,1\%) & 463 (16,0\%) & 1.713 (59,2\%) & 711 (24,6\%) \\
+30--34 & 7 (0,3\%) & 312 (14,6\%) & 1.146 (53,7\%) & 669 (31,3\%) \\
+35+ & 27 (1,4\%) & 369 (19,3\%) & 892 (46,7\%) & 620 (32,5\%) \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Como medida descritiva, foi utilizada a diferença entre proporções em pontos percentuais. Essa escolha é adequada porque o objetivo aqui é comparar a distribuição observada entre os grupos, sem transformar a análise em um teste de hipótese.
+
+\[
+\Delta p = p_1 - p_0
+\]
+
+No caso da escolaridade superior, a proporção foi de 1,4\% entre mães com menos de 20 anos e de 32,5\% entre mães de 35 anos ou mais. A diferença foi, portanto, de 31,1 pontos percentuais. Esse resultado indica associação descritiva entre idade e escolaridade: mães em idades mais elevadas apresentam maior participação relativa no ensino superior.
+
+\begin{figure}[H]
+    \centering
+    \caption{Distribuição percentual da escolaridade segundo grupo de idade da mãe. SINASC 2024, Amapá.}
+    \includegraphics[width=0.78\textwidth]{imagens/heat_idade_esc_2024.png}
+    \label{fig:q2_idade_esc}
+\end{figure}
+
+\subsection{Associação entre tipo de parto e escolaridade da mãe}
+
+Também foi analisada a relação entre tipo de parto e escolaridade da mãe. A Tabela \ref{tab:q2_parto_esc} apresenta a tabela de contingência com frequências absolutas e percentuais por linha.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Tipo de parto e escolaridade da mãe. SINASC 2024, Amapá.}
+\label{tab:q2_parto_esc}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Tipo de parto} & \textbf{Nenhuma} & \textbf{Fund. incompleto} & \textbf{Médio/Fund. completo} & \textbf{Superior} \\
+\midrule
+Cesárea & 15 (0,3\%) & 684 (12,6\%) & 3.131 (57,8\%) & 1.584 (29,3\%) \\
+Vaginal & 31 (0,4\%) & 1.591 (23,0\%) & 4.461 (64,6\%) & 827 (12,0\%) \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A partir da mesma tabela de contingência, também foi calculada a proporção de cesáreas dentro de cada grupo de escolaridade. Entre mães com ensino fundamental incompleto, 30,1\% dos partos foram cesáreos. Entre mães com ensino superior, essa proporção foi de 65,7\%. A diferença foi de 35,6 pontos percentuais.
+
+Esse resultado mostra uma associação descritiva importante entre escolaridade e tipo de parto: quanto maior a escolaridade, maior a participação relativa dos partos cesáreos. Como se trata de uma análise descritiva com dados populacionais do SINASC, a interpretação foi baseada nas proporções observadas e nas diferenças em pontos percentuais.
+
+\begin{figure}[H]
+    \centering
+    \caption{Distribuição da escolaridade segundo tipo de parto. SINASC 2024, Amapá.}
+    \includegraphics[width=0.72\textwidth]{imagens/parto_esc_2024.png}
+    \label{fig:q2_parto_esc}
+\end{figure}
+
+\subsection{Comentários}
+
+A Questão 2 mostra queda consistente da fecundidade no Amapá entre 2010 e 2024. A redução aparece tanto nas taxas específicas por idade quanto na TFT, na TBR e na TLR. Em 2022, a escolha do denominador populacional altera os resultados, especialmente a TFT, mostrando a importância de explicitar se foram usadas projeções ou população recenseada.
+
+Para 2024, a análise das tabelas de contingência indica associação descritiva entre idade, escolaridade da mãe e tipo de parto. Mães mais velhas apresentaram maior proporção de ensino superior, e mães com ensino superior apresentaram maior proporção de partos cesáreos. Esses resultados foram interpretados por meio de frequências relativas e diferenças em pontos percentuais.

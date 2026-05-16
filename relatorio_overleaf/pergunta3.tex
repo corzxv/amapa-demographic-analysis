@@ -1,0 +1,326 @@
+﻿\section{Mortalidade}
+
+\subsection{Procedimentos}
+
+Nesta questão foram utilizados os microdados do SIM/DATASUS para óbitos de residentes no Amapá \cite{datasus2026} e as populações projetadas pelo IBGE -- Revisão 2024 \cite{ibge2024}. Os anos analisados foram 2010, 2019, 2021, 2022 e 2024.
+
+Foram calculadas a Taxa Bruta de Mortalidade (TBM), as taxas específicas de mortalidade por sexo e idade (${}_nM_x$), indicadores de mortalidade infantil e perinatal, a estrutura de causas de morte e tábuas de vida abreviadas para 2010 e 2024.
+
+A Taxa Bruta de Mortalidade foi calculada por:
+
+\[
+TBM = \frac{D}{P} \times 1000
+\]
+
+em que $D$ é o total de óbitos no ano e $P$ é a população projetada no mesmo ano.
+
+As taxas específicas de mortalidade foram calculadas por:
+
+\[
+{}_nM_x = \frac{{}_nD_x}{{}_nP_x} \times 1000
+\]
+
+em que ${}_nD_x$ representa os óbitos no grupo etário e ${}_nP_x$ representa a população do mesmo grupo. Neste caso, ${}_nM_x$ é apresentado por mil habitantes.
+
+\subsection{Taxa Bruta e Taxas Específicas de Mortalidade}
+
+A Tabela \ref{tab:tbm_q3} apresenta a Taxa Bruta de Mortalidade para os anos selecionados. A TBM aumenta entre 2010 e 2021, com pico em 2021, ano marcado pela pandemia de COVID-19. Em 2022 e 2024, a taxa diminui em relação a 2021, mas permanece acima do valor observado em 2010.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Taxa Bruta de Mortalidade. Amapá, anos selecionados.}
+\label{tab:tbm_q3}
+\begin{tabular}{rrrr}
+\toprule
+\textbf{Ano} & \textbf{Óbitos} & \textbf{População projetada} & \textbf{TBM por mil} \\
+\midrule
+2010 & 2.276 & 686.987 & 3,31 \\
+2019 & 3.407 & 779.468 & 4,37 \\
+2021 & 4.578 & 790.871 & 5,79 \\
+2022 & 3.735 & 795.457 & 4,70 \\
+2024 & 3.798 & 802.837 & 4,73 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+As taxas específicas por sexo e idade mostram o padrão esperado: mortalidade mais elevada no primeiro ano de vida, queda nas idades infantis e aumento progressivo nas idades adultas e idosas. Também se observa maior mortalidade masculina em quase todos os grupos etários, principalmente nas idades jovens e adultas.
+
+\begin{figure}[H]
+    \centering
+    \caption{Taxas específicas de mortalidade por sexo e grupo etário. Amapá, anos selecionados.}
+    \includegraphics[width=0.95\textwidth]{imagens/nmx_painel_ap.png}
+    \label{fig:nmx_painel_q3}
+\end{figure}
+
+\subsection{Mortalidade Infantil e Perinatal}
+
+A Taxa de Mortalidade Infantil (TMI) foi calculada conforme solicitado no enunciado: média dos óbitos infantis de 2022 a 2024 no numerador e nascidos vivos de 2023 no denominador.
+
+\[
+TMI = \frac{\overline{D}_{<1,\,2022-2024}}{NV_{2023}} \times 1000
+\]
+
+\begin{table}[H]
+\centering
+\small
+\caption{Taxa de Mortalidade Infantil, total e por sexo. Amapá.}
+\label{tab:tmi_q3}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Sexo} & \textbf{Média de óbitos infantis} & \textbf{NV 2023} & \textbf{TMI por mil} \\
+\midrule
+Total & 238,3 & 12.948 & 18,41 \\
+Masculino & 128,7 & 6.637 & 19,39 \\
+Feminino & 107,7 & 6.310 & 17,06 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A TMI masculina foi maior que a feminina, padrão comum em estudos de mortalidade infantil. A decomposição mostra maior peso dos óbitos neonatais precoces, isto é, ocorridos de 0 a 6 dias de vida.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Componentes da mortalidade infantil. Amapá.}
+\label{tab:componentes_tmi_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrr}
+\toprule
+\textbf{Componente} & \textbf{Média de óbitos 2022--2024} & \textbf{Taxa por mil} \\
+\midrule
+Neonatal precoce (0--6 dias) & 112,3 & 8,68 \\
+Neonatal tardio (7--27 dias) & 32,0 & 2,47 \\
+Neonatal total (0--27 dias) & 144,3 & 11,15 \\
+Pós-neonatal (28 dias--menos de 1 ano) & 94,0 & 7,26 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A mortalidade perinatal foi calculada somando os óbitos fetais de 28 semanas ou mais aos óbitos neonatais precoces. Também foi calculada uma medida de sensibilidade com todos os óbitos fetais, pois a variável de idade gestacional pode ter preenchimento incompleto.
+
+\[
+TMP = \frac{OF_{28+} + D_{0-6}}{NV + OF_{28+}} \times 1000
+\]
+
+em que $OF_{28+}$ representa os óbitos fetais com 28 semanas ou mais de gestação e $D_{0-6}$ representa os óbitos neonatais precoces.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Taxa de Mortalidade Perinatal. Amapá.}
+\label{tab:perinatal_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Critério} & \textbf{Fetais} & \textbf{Neo. precoces} & \textbf{Denominador} & \textbf{TMP por mil} \\
+\midrule
+Fetais 28+ semanas & 97,7 & 112,3 & 13.059 & 16,08 \\
+Todos os fetais -- sensibilidade & 148,7 & 112,3 & 13.108 & 19,91 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Os resultados indicam que a mortalidade infantil ainda tem peso importante no componente neonatal, principalmente nos primeiros dias de vida. Isso sugere relação com condições da gestação, do parto, do nascimento e da assistência neonatal.
+
+\subsection{Estrutura de Mortalidade por Causas}
+
+A análise por causas utilizou a causa básica do óbito, agrupada segundo capítulos da CID-10. A Tabela \ref{tab:causas_ano_q3} apresenta os principais grupos de causas em 2010, 2021 e 2024.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Principais grupos de causas de morte. Amapá, 2010, 2021 e 2024.}
+\label{tab:causas_ano_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrr}
+\toprule
+\textbf{Ano} & \textbf{Grupo de causa} & \textbf{Óbitos} & \textbf{\% do ano} \\
+\midrule
+2010 & Causas externas & 522 & 22,9 \\
+2010 & Aparelho circulatório & 367 & 16,1 \\
+2010 & Sintomas e achados anormais & 297 & 13,0 \\
+2010 & Neoplasias & 235 & 10,3 \\
+2010 & Aparelho respiratório & 214 & 9,4 \\
+\midrule
+2021 & COVID-19 (B34.2/U07) & 1.033 & 22,6 \\
+2021 & Causas externas & 756 & 16,5 \\
+2021 & Aparelho circulatório & 700 & 15,3 \\
+2021 & Neoplasias & 501 & 10,9 \\
+2021 & Aparelho respiratório & 343 & 7,5 \\
+\midrule
+2024 & Aparelho circulatório & 924 & 24,3 \\
+2024 & Causas externas & 684 & 18,0 \\
+2024 & Neoplasias & 572 & 15,1 \\
+2024 & Aparelho respiratório & 451 & 11,9 \\
+2024 & Endócrinas, nutricionais e metabólicas & 214 & 5,6 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+Em 2010, as causas externas foram o principal grupo de causas, com forte peso entre homens e idades jovens. Em 2021, a COVID-19 aparece como principal causa agregada, representando 22,6\% dos óbitos. Em 2024, o perfil volta a ser mais marcado por doenças crônicas, com destaque para doenças do aparelho circulatório, neoplasias e doenças respiratórias.
+
+\begin{figure}[H]
+    \centering
+    \caption{Estrutura de mortalidade por grupos de causas. Amapá, 2010, 2021 e 2024.}
+    \includegraphics[width=0.95\textwidth]{imagens/causas_top20_ano_ap.png}
+    \label{fig:causas_ano_q3}
+\end{figure}
+
+A análise por sexo mostra diferenças importantes. Entre os homens, as causas externas têm participação elevada, especialmente em 2010 e 2024. Entre as mulheres, há maior peso relativo das doenças do aparelho circulatório, neoplasias e doenças respiratórias.
+
+\begin{figure}[H]
+    \centering
+    \caption{Estrutura de causas de morte por sexo. Amapá, anos selecionados.}
+    \includegraphics[width=0.95\textwidth]{imagens/causas_top20_sexo_ap.png}
+    \label{fig:causas_sexo_q3}
+\end{figure}
+
+A análise por grupo de idade também mostrou diferenças importantes na estrutura de causas. Em menores de 5 anos, predominaram causas relacionadas ao período perinatal. Nos grupos de 5 a 14 anos e 15 a 39 anos, as causas externas tiveram maior peso relativo, especialmente entre jovens e adultos. A partir de 40 anos, aumentou a participação das doenças crônicas, principalmente doenças do aparelho circulatório, neoplasias e doenças respiratórias. Em 2021, a COVID-19 teve participação importante nos grupos de 40 a 59 anos e 60 anos ou mais.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Principal grupo de causa de morte por idade. Amapá, 2010, 2021 e 2024.}
+\label{tab:causas_idade_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Ano} & \textbf{Grupo de idade} & \textbf{Principal causa} & \textbf{Óbitos} & \textbf{\%} \\
+\midrule
+2010 & $<5$   & Período perinatal & 213 & 61,9 \\
+2010 & 5--14  & Causas externas & 29 & 44,6 \\
+2010 & 15--39 & Causas externas & 350 & 63,5 \\
+2010 & 40--59 & Causas externas & 98 & 22,6 \\
+2010 & 60+    & Aparelho circulatório & 246 & 27,9 \\
+2021 & $<5$   & Período perinatal & 158 & 48,2 \\
+2021 & 5--14  & Causas externas & 27 & 42,9 \\
+2021 & 15--39 & Causas externas & 521 & 59,4 \\
+2021 & 40--59 & COVID-19 & 340 & 31,8 \\
+2021 & 60+    & COVID-19 & 603 & 26,9 \\
+2024 & $<5$   & Período perinatal & 107 & 41,0 \\
+2024 & 5--14  & Causas externas & 11 & 24,4 \\
+2024 & 15--39 & Causas externas & 442 & 65,0 \\
+2024 & 40--59 & Aparelho circulatório & 193 & 24,9 \\
+2024 & 60+    & Aparelho circulatório & 688 & 33,8 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A mortalidade por COVID-19 concentrou-se em 2021, principalmente entre pessoas de 60 anos ou mais. Também houve maior número absoluto de óbitos entre homens. Em 2024, os óbitos por COVID-19 foram residuais. O registro isolado em 2010 não deve ser interpretado como COVID-19 pandêmica, mas como registro associado aos códigos usados no agrupamento.
+
+\begin{figure}[H]
+    \centering
+    \caption{Óbitos por COVID-19 segundo sexo e grupo de idade. Amapá, 2010, 2021 e 2024.}
+    \includegraphics[width=0.9\textwidth]{imagens/covid_sexo_idade_ap.png}
+    \label{fig:covid_q3}
+\end{figure}
+
+\subsection{Tábuas de Vida}
+
+Foram construídas tábuas de vida abreviadas para homens e mulheres em 2010 e 2024. A tábua de vida parte das taxas específicas de mortalidade e estima funções como $l_x$, ${}_nq_x$, ${}_nL_x$, $T_x$ e $e_x^0$.
+
+Para as primeiras idades, foram usados fatores de separação estimados com os microdados do SIM. Para as demais idades, adotou-se a hipótese usual de distribuição aproximadamente uniforme dos óbitos no intervalo.
+
+Na construção da tábua de vida, as taxas foram utilizadas em forma decimal, isto é, sem multiplicação por mil. Assim, foi considerada:
+
+\[
+{}_nm_x = \frac{{}_nD_x}{{}_nP_x}
+\]
+
+A relação utilizada entre ${}_nm_x$ e ${}_nq_x$ foi:
+
+\[
+{}_nq_x =
+\frac{n \cdot {}_nm_x}{1 + (n-a_x)\cdot {}_nm_x}
+\]
+
+em que ${}_nm_x$ representa a taxa específica de mortalidade em forma decimal e $a_x$ representa o tempo médio vivido no intervalo pelos indivíduos que morreram naquele intervalo.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Fatores de separação estimados para as primeiras idades. Amapá.}
+\label{tab:fatores_sep_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+\textbf{Ano} & \textbf{Sexo} & \textbf{$a_0$} & \textbf{$a_{1-4}$} & \textbf{Óbitos 0} & \textbf{Óbitos 1--4} \\
+\midrule
+2010 & Feminino & 0,100 & 1,595 & 144 & 21 \\
+2010 & Masculino & 0,090 & 1,833 & 155 & 24 \\
+2024 & Feminino & 0,086 & 1,350 & 107 & 20 \\
+2024 & Masculino & 0,114 & 1,667 & 108 & 24 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+A Tabela \ref{tab:resumo_tv_q3} apresenta a esperança de vida ao nascer e aos 60 anos. Em todos os casos, a esperança de vida feminina foi maior que a masculina.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Esperança de vida ao nascer e aos 60 anos pelas tábuas calculadas. Amapá.}
+\label{tab:resumo_tv_q3}
+\begin{tabular}{llrr}
+\toprule
+\textbf{Ano} & \textbf{Sexo} & \textbf{$e_0^0$} & \textbf{$e_{60}^0$} \\
+\midrule
+2010 & Masculino & 75,20 & 24,95 \\
+2010 & Feminino & 83,14 & 28,35 \\
+2024 & Masculino & 71,83 & 20,75 \\
+2024 & Feminino & 79,72 & 24,89 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A comparação com a tábua do IBGE mostra que os valores calculados para 2024 ficaram próximos aos valores da Revisão 2024. Para 2010, as estimativas calculadas ficaram acima das estimativas do IBGE, o que exige cautela. Essa diferença pode estar relacionada à qualidade do registro de óbitos, à estabilidade das taxas em populações menores e ao uso direto das taxas observadas do SIM.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Comparação da esperança de vida calculada com a tábua do IBGE. Amapá.}
+\label{tab:comp_ibge_q3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+\textbf{Ano} & \textbf{Sexo} & \textbf{$e_0$ calc.} & \textbf{$e_0$ IBGE} & \textbf{$e_{60}$ calc.} & \textbf{$e_{60}$ IBGE} \\
+\midrule
+2010 & Masculino & 75,20 & 70,81 & 24,95 & 20,39 \\
+2010 & Feminino & 83,14 & 78,58 & 28,35 & 24,24 \\
+2024 & Masculino & 71,83 & 70,26 & 20,75 & 20,44 \\
+2024 & Feminino & 79,72 & 78,78 & 24,89 & 23,45 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \caption{Função $l_x$ da tábua de vida. Amapá, 2010 e 2024.}
+    \includegraphics[width=0.78\textwidth]{imagens/tv_lx_ap.png}
+    \label{fig:lx_q3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Função ${}_nq_x$ da tábua de vida. Amapá, 2010 e 2024.}
+    \includegraphics[width=0.78\textwidth]{imagens/tv_nqx_ap.png}
+    \label{fig:nqx_q3}
+\end{figure}
+
+A função $l_x$ mostra maior sobrevivência feminina ao longo das idades. A função ${}_nq_x$ apresenta o padrão esperado: maior probabilidade de morte no primeiro ano de vida, queda nas idades infantis e aumento progressivo nas idades adultas e idosas. As probabilidades masculinas são superiores às femininas em grande parte da vida adulta.
+
+\subsection{Comentários}
+
+Os resultados da Questão 3 são coerentes com o padrão esperado de mortalidade. A mortalidade aumenta com a idade, é maior entre homens em grande parte dos grupos etários e apresenta forte peso das causas externas entre homens jovens e adultos.
+
+O ano de 2021 se destaca pelo impacto da COVID-19, tanto no aumento da TBM quanto na estrutura de causas de morte. Em 2024, observa-se retorno a um perfil mais associado às doenças crônicas, principalmente doenças do aparelho circulatório, neoplasias e doenças respiratórias.
+
+As tábuas de vida reforçam o diferencial por sexo, com maior esperança de vida feminina. Os resultados de 2024 devem ser interpretados com cautela, pois os dados do DATASUS podem ser preliminares. Além disso, diferenças entre a tábua calculada e a tábua do IBGE mostram a importância da qualidade do SIM e da estabilidade das taxas em populações menores, como é o caso do Amapá.
+

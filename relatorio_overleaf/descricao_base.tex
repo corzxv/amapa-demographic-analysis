@@ -1,0 +1,42 @@
+\subsection{Bases de dados utilizadas}
+
+Antes do cálculo dos indicadores, foi definido como recorte territorial o estado do Amapá, código 16 do IBGE. O trabalho utiliza registros de nascidos vivos, óbitos gerais, óbitos fetais e informações populacionais. De forma geral, as bases cobrem o período de 2000 a 2024, embora algumas análises usem recortes menores por causa da janela de observação necessária.
+
+\begin{table}[H]
+\centering
+\small
+\caption{Volumetria geral das bases utilizadas no trabalho.}
+\label{tab:volumetria_bases}
+\begin{tabular}{p{3.8cm}p{3.5cm}p{5.5cm}}
+\toprule
+\textbf{Base} & \textbf{Fonte} & \textbf{Dados} \\
+\midrule
+SINASC & DATASUS/MS & 367.929 nascidos vivos \\
+SIM-DO & DATASUS/MS & 68.990 óbitos \\
+SIM-DOFET & DATASUS/MS & 4.440 óbitos fetais de residentes no AP \\
+Projeções populacionais & IBGE, Revisão 2024 & 19.383 linhas por sexo, idade e ano \\
+Censo Demográfico 2022 & IBGE & 1.206 linhas por sexo e idade \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Principais recortes analíticos utilizados nas questões.}
+\label{tab:recortes_analiticos}
+\begin{tabular}{p{2cm}p{7.2cm}p{5cm}}
+\toprule
+\textbf{Questão} & \textbf{Recorte utilizado} & \textbf{Volume analisado} \\
+\midrule
+Q1 & Coortes de nascidos vivos e óbitos de menores de 5 anos & 299.413 nascidos vivos nas coortes 2000--2019 e 7.044 óbitos de 0 a 4 anos. \\
+Q1 & Sobrevivência ao primeiro aniversário & 355.602 nascidos vivos nas coortes 2000--2023 e 7.169 óbitos antes de 1 ano. \\
+Q1 & Mortalidade infantil por raça/cor em 2022 e 2023 & 26.563 nascidos vivos e 517 óbitos antes de 1 ano. \\
+Q2 & Indicadores de fecundidade em 2010, 2019, 2021, 2022 e 2024 & 71.292 nascidos vivos nos anos selecionados. \\
+Q3 & Mortalidade geral em 2010, 2019, 2021, 2022 e 2024 & 17.794 óbitos nos anos selecionados. \\
+Q3 & Tábuas de vida para 2010 e 2024 & Taxas específicas de mortalidade por sexo e idade, com tábuas calculadas para homens e mulheres. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Essas bases permitem acompanhar três dimensões centrais do trabalho: nascimentos, óbitos e população exposta ao risco. O SINASC fornece os registros de nascidos vivos e as informações maternas e do recém-nascido. O SIM permite observar óbitos por idade, sexo e causa básica. Já os dados do IBGE fornecem os denominadores populacionais necessários para transformar contagens em taxas. Por isso, ao longo do trabalho, os resultados devem ser lidos sempre considerando a qualidade do registro, o recorte territorial e o denominador usado em cada indicador.

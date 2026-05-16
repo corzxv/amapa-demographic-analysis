@@ -1,0 +1,21 @@
+Grupo de idade,Escolaridade,n,% (linha)
+< 20,Nenhuma,2,0.1
+< 20,Fund. incompleto,560,25.9
+< 20,Médio/Fund. completo,1567,72.5
+< 20,Ignorada,31,1.4
+20-24,Nenhuma,6,0.2
+20-24,Fund. incompleto,571,17.7
+20-24,Médio/Fund. completo,2275,70.4
+20-24,Ignorada,379,11.7
+25-29,Nenhuma,4,0.1
+25-29,Fund. incompleto,463,16
+25-29,Médio/Fund. completo,1713,59.2
+25-29,Ignorada,712,24.6
+30-34,Nenhuma,7,0.3
+30-34,Fund. incompleto,312,14.6
+30-34,Médio/Fund. completo,1146,53.7
+30-34,Ignorada,670,31.4
+35+,Nenhuma,27,1.4
+35+,Fund. incompleto,369,19.3
+35+,Médio/Fund. completo,892,46.7
+35+,Ignorada,621,32.5
