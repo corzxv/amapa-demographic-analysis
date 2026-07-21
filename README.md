@@ -1,50 +1,115 @@
-# Trabalho 1 de Demografia: Amapá (2000-2024)
+# Demographic Analysis of Amapá (2000–2024)
 
-Repositório do Trabalho 1 da disciplina de Demografia, com foco na dinâmica demográfica do Amapá (UF AP, código IBGE 16) entre 2000 e 2024.
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![Data](https://img.shields.io/badge/Data-IBGE%20%26%20DATASUS-4E8C3A?style=flat-square)
 
-O projeto reúne scripts em R, bases tratadas, tabelas, gráficos e o relatório final em LaTeX. As análises foram construídas a partir de dados do SINASC, SIM, SIM-DOFET, projeções populacionais do IBGE - Revisão 2024 e Censo Demográfico 2022.
+A demographic analysis of the Brazilian state of Amapá between 2000 and 2024, developed for the **Demography course** in the Bachelor's Degree in Statistics at the University of Brasília.
 
-## Conteúdo analisado
+## About the project
 
-- Diagrama de Lexis para óbitos de menores de 5 anos.
-- Probabilidade de sobrevivência até o primeiro aniversário e até a idade exata de 5 anos.
-- Mortalidade infantil por raça/cor em 2022 e 2023.
-- Indicadores de natalidade, fecundidade e reprodução.
-- Comparação dos indicadores de 2022 usando projeção populacional e Censo 2022.
-- Tabelas de contingência para idade, escolaridade da mãe e tipo de parto.
-- Taxa Bruta de Mortalidade e taxas específicas por sexo e idade.
-- Mortalidade infantil, neonatal, pós-neonatal e perinatal.
-- Estrutura de causas de morte, com destaque para COVID-19.
-- Tábuas de vida abreviadas por sexo para 2010 e 2024.
+This repository contains an academic project focused on the demographic dynamics of Amapá, Brazil — state code 16 according to the Brazilian Institute of Geography and Statistics (IBGE).
 
-## Estrutura
+The project combines:
+
+- data collection and preparation in R;
+- demographic indicator calculation;
+- data quality checks;
+- statistical tables and visualizations;
+- a final academic report written in LaTeX.
+
+The analyses were based on data from the Brazilian Live Birth Information System (SINASC), Mortality Information System (SIM), Fetal Death Information System (SIM-DOFET), IBGE population projections, and the 2022 Brazilian Census.
+
+## Topics covered
+
+The project includes the following analyses:
+
+- Lexis diagram for deaths among children under five;
+- probability of survival to the first birthday and to exact age five;
+- infant mortality by race or skin color in 2022 and 2023;
+- birth, fertility, and reproduction indicators;
+- comparison of 2022 indicators using population projections and Census data;
+- contingency tables for maternal age, education level, and type of delivery;
+- crude death rate and age- and sex-specific mortality rates;
+- infant, neonatal, post-neonatal, and perinatal mortality;
+- distribution of causes of death, with emphasis on COVID-19;
+- abridged life tables by sex for 2010 and 2024.
+
+## Project structure
 
 ```text
 demografia_ap/
-  dados/
-    brutos/          # bases baixadas ou importadas das fontes
-    processados/     # bases tratadas e logs de qualidade
-  scripts/           # scripts R por etapa da análise
-  outputs/
-    tabelas/         # tabelas exportadas
-    graficos/        # gráficos gerados
-  relatorio/         # materiais auxiliares do relatório
+├── dados/
+│   ├── brutos/             # downloaded or imported raw datasets
+│   └── processados/        # processed datasets and data quality logs
+├── scripts/                # R scripts organized by analysis stage
+├── outputs/
+│   ├── tabelas/            # exported tables
+│   └── graficos/           # generated visualizations
+└── relatorio/              # supporting material for the report
 
-relatorio_overleaf/  # projeto LaTeX final para Overleaf
+relatorio_overleaf/         # final LaTeX project for Overleaf
 ```
 
+The original directory and file names were kept in Portuguese because the project was developed as an academic assignment in Brazil.
 
-## Scripts principais
+## Main scripts
 
-- `00_setup_e_dados.R`: configuração do projeto, download/importação e checagens iniciais das bases.
-- `01_lexis_sobrevivencia.R`: Diagrama de Lexis e probabilidades de sobrevivência na infância.
-- `02_fecundidade.R`: indicadores de natalidade, fecundidade, reprodução e tabelas de contingência do SINASC 2024.
-- `03_mortalidade_geral_infantil.R`: mortalidade geral, taxas específicas e indicadores infantis/perinatais.
-- `ofc_q3_c_d.R`: estrutura de causas de morte e tábuas de vida.
+| Script | Description |
+|---|---|
+| `00_setup_e_dados.R` | Configures the project, downloads or imports the datasets, and performs initial data quality checks. |
+| `01_lexis_sobrevivencia.R` | Creates the Lexis diagram and estimates childhood survival probabilities. |
+| `02_fecundidade.R` | Calculates birth, fertility, and reproduction indicators and produces contingency tables using SINASC 2024 data. |
+| `03_mortalidade_geral_infantil.R` | Calculates general mortality rates, specific mortality rates, and infant and perinatal mortality indicators. |
+| `ofc_q3_c_d.R` | Analyzes the distribution of causes of death and constructs abridged life tables. |
 
-## Fontes de dados
+## Data sources
 
-- DATASUS/MS: SINASC, SIM e SIM-DOFET.
-- IBGE: Projeções da População - Revisão 2024.
-- IBGE: Censo Demográfico 2022.
+### DATASUS — Brazilian Ministry of Health
 
+- **SINASC** — Live Birth Information System;
+- **SIM** — Mortality Information System;
+- **SIM-DOFET** — Fetal Death Information System.
+
+### IBGE
+
+- Population Projections — 2024 Revision;
+- 2022 Brazilian Census.
+
+## Technologies
+
+- **R**
+- **LaTeX**
+- **Overleaf**
+- **DATASUS public health data**
+- **IBGE demographic data**
+
+## Reproducibility
+
+The scripts are organized according to the main stages of the analysis.
+
+Start by running the project setup and data preparation script from the project root:
+
+```r
+source("demografia_ap/scripts/00_setup_e_dados.R")
+```
+
+The remaining scripts can then be executed according to the demographic topic being analyzed.
+
+Some source datasets may need to be downloaded again from DATASUS or IBGE, depending on their availability and access method.
+
+## Final report
+
+The final academic report is available in:
+
+```text
+relatorio_overleaf/
+```
+
+The report was written in Portuguese and formatted in LaTeX for compilation in Overleaf.
+
+## Course context
+
+This project was developed for the **Demography course** in the Bachelor's Degree in Statistics at the University of Brasília.
+
+The repository documents my practical work with demographic indicators, Brazilian public datasets, reproducible data analysis in R, and academic reporting.
